@@ -16,6 +16,7 @@ export default defineConfig({
     },
   ],
   build: {
+    sourcemap: true,
     lib: {
       entry: 'src/main.js',
       formats: ['iife'],
